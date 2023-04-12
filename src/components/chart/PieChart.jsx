@@ -74,7 +74,8 @@ const PieChart = () => {
         </div>
         <div>
           <span className="pie__year">
-            May-jun 2021 <i class="fa-solid fa-greater-than fa-rotate-90"></i>
+            May-jun 2021{' '}
+            <i className="fa-solid fa-greater-than fa-rotate-90"></i>
           </span>
         </div>
       </div>

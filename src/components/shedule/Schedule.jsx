@@ -11,7 +11,7 @@ const Schedule = () => {
           <h4>Today's schedule</h4>
         </div>
         <div className="seaall">
-          See All <i class="fa-solid fa-greater-than"></i>
+          See All <i className="fa-solid fa-greater-than"></i>
         </div>
       </div>
 
