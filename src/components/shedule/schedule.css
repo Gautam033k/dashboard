@@ -1,0 +1,66 @@
+.pie__chart {
+  margin-left: 0.6%;
+}
+.schedule__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.schedule__heading h4 {
+  justify-content: start;
+  font-size: 1.2rem;
+  margin-left: -15%;
+}
+
+.schedule__heading .seaall {
+  margin-right: -10%;
+  color: #858585;
+}
+
+.schedule1__container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+  margin-bottom: 10px;
+}
+/* .line__contanier {
+  border-left: 5px solid black;
+  height: 100px;
+} */
+.schedule1__container::before {
+  content: '';
+  display: block;
+  border-left: 4px solid #9bdd7c;
+  height: 60px;
+  margin-right: 5px;
+  margin-left: -5%;
+}
+.schedule2__container::before {
+  content: '';
+  display: block;
+  border-left: 4px solid #6972c3;
+  height: 60px;
+  margin-right: 5px;
+  margin-left: -5%;
+}
+.schedule1__container span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.schedule1__container p {
+  font-size: 0.9rem;
+}
+.schedule2__container p {
+  font-size: 0.9rem;
+}
+.schedule2__container span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.schedule2__container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}

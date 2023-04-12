@@ -1,0 +1,32 @@
+.App {
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddddd;
+}
+
+.parent__container {
+  display: grid;
+  height: 96%;
+  width: 96%;
+  border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+  grid-template-columns: 14rem auto;
+  background-color: #dddddd;
+}
+
+.home__container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10rem 20rem 50rem 20rem;
+}
+
+.side__bar {
+  height: 96vh;
+  background-color: black;
+  border-radius: 1.8rem;
+  width: 260px;
+  margin-left: 2%;
+}

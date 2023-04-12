@@ -1,0 +1,38 @@
+.pie__chart {
+  /* height: 280px; */
+  width: 340px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  padding: 10px 80px 10px 80px;
+  margin-bottom: 1%;
+}
+
+/* .pie__design {
+  padding: 10px;
+} */
+
+.pie__chart h4 {
+  font-size: 1.2rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: -10%;
+}
+
+.pie__content {
+  display: flex;
+}
+
+.pie__chart__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  margin-left: -7%;
+}
+.pie__year {
+  /* margin-left: 10%; */
+  /* margin-right: -20%; */
+  color: #858585;
+}

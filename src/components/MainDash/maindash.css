@@ -1,0 +1,17 @@
+.maindash {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+.footer__container {
+  width: 1150px;
+  display: flex;
+  margin-left: 7.5%;
+  gap: 5rem;
+  justify-content: space-evenly;
+}
+
+.schedule__container {
+  margin-left: 20%;
+}

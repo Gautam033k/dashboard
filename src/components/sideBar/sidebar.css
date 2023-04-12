@@ -1,0 +1,58 @@
+.sidebar {
+  /* display: flex;
+  flex-direction: column; */
+  padding-top: 3rem;
+  color: hsl(0, 0%, 100%);
+  width: 400px;
+}
+
+.logo {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.menu {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  gap: 1.8rem;
+}
+.menu__item {
+  display: flex;
+  gap: 1rem;
+}
+.menu__item > span {
+  font-size: 1rem;
+}
+
+.menu__item:hover {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.sidebar__footer {
+  /* margin-top: 145%; */
+  /* margin-left: 2rem; */
+  /* margin-bottom: -2rem; */
+  position: relative;
+}
+.footbar__items {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  /* top: 20rem;*/
+  left: 2rem;
+  bottom: -22rem;
+  width: 100%;
+}
+
+.footbar__items > span {
+  font-size: 0.8rem;
+}
